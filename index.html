@@ -1,47 +1,42 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Zach's Portfolio</title>
         <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Zachary Zhao's Portfolio</h1>
-        <h2>I am a Computer Engineer</h2>
-        <hr/>
-        <h2>Projects</h2>
-        <div class="div">
-            <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-            <img 
-                src="./assets/images/top-movies.png" 
-                alt="Screenshot of movie project page"
-                height="200px"/>
+        <div class="title-card">
+            <h1>Zachary Zhao</h1>
+            <h2>Welcome to My Portfolio</h2>
+            <hr/>
         </div>
-        <div class="div">
-            <h3><a href="./public/christmas-card.html">Christmas Card Project</a></h3>
-            <img 
-                src="./assets/images/christmas-card.png" 
-                alt="Screentshot of Christmas card project page"
-                height="200px"/>
+        <div class="menu">
+            <div class="projects button">
+                <button class="dropdown">Projects</button>
+                <div class="items">
+                    <a href="./public/movie-ranking.html">Movie Ranking</a>
+                    <a href="./public/christmas-card.html">Christmas Card</a>
+                </div>
+            </div>
+
+            <div class="about button">
+                <button class="dropdown">About</button>
+                <div class="items">
+                    <a href="./public/about.html">About Me</a>
+                </div>
+            </div>
+
+            <div class="Contact button">
+                <button class="dropdown">Contact Me</button>
+                <div class="items">
+                    <a href="./public/contact.html">Contact Me</a>
+                </div>
+            </div>
         </div>
-        <hr/>
-        <h4><a href="./public/about.html">About Me</a></h4>
-        <h4><a href="./public/contact.html">Contact Me</a></h4>
     </body>
 </html>
