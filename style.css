@@ -50,9 +50,13 @@ img{
 }
 
 .items a:hover{
-    background-color: #964b00;
+    background-color: #bc8f8f;
 }
 
 .button:hover .items{
     display: block;
+}
+
+.dropdown:hover{
+    background-color: #6f4e37;
 }
