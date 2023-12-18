@@ -60,3 +60,17 @@ img{
 .dropdown:hover{
     background-color: #6f4e37;
 }
+
+
+/* Resume section */
+.resume{
+    margin: 2% 20%;
+}
+
+.resume > h1{
+    text-align: center;
+}
+
+.resume-date{
+    float: right;
+}
